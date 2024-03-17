@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Black N White",
+  "version": "1.0",
+
+  "description": "Converts websites into Black And White.",
+
+  "icons": {
+    "48": "icons/Black-N-White.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
